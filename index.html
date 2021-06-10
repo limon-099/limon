@@ -1,0 +1,73 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>images gallery</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="author" content="LIMON ISLAM">
+    <meta name="description" content="my friends images gallery ">
+    <meta name="keywords" content="programming hero, web playground">
+    <link rel="shortcut icon" href="images/favicon.ico" type="image/vnd.microsoft.icon">
+    
+
+   
+   <style type="text/css">
+      * {
+         box-sizing: border-box;
+      }
+      html, body {
+         margin: 0;
+         padding: 0;
+      }
+      .image-container {
+         margin: 0 auto; /* center the image containers */
+         width: 80%;
+         box-shadow: 0 15px 30px rgba(0,0,0,0.30), 0 11px 8px rgba(0,0,0,0.22); /* material box shadow */
+         margin-bottom: 20px;
+         transition-duration: 1s;
+      }
+      .image-container:hover {
+         width: 90%;
+         box-shadow: 0 18px 36px rgba(0,0,0,0.30), 0 14px 11px rgba(0,0,0,0.22);
+      }
+      /* make the images responsive */
+      img {
+         width: 100%;
+         height: auto;
+      }
+      .image-description {
+         padding: 0 15px 15px 15px;
+         text-align: center;
+      }
+   </style>
+</head>
+<body>   
+   <h1 style="color:#ff00ff"> Friends Image Gallery </h1>
+   <div class="gallery">
+       	
+      <div class="image-container">
+         <img src="images/IMG_20210302_083236_074.jpg" />
+         <p class="image-description">প্রাইভেট শেষে </p>
+      </div>
+      <hr/>
+      <div class="image-container">
+         <img src="images/IMG_20210514_161059.jpg" />
+         <p class="image-description"> ঈদের দিন </p>
+      </div>
+      <hr/>
+      <div class="image-container">
+         <img src="images/IMG_20210523_113837_456.jpg" />
+         <p class="image-description"> লকডাউন সময়ে স্কুলে</p>
+      </div>
+      <hr/>
+
+      
+      <div class="image-container">
+         <img src="images/IMG_20210523_111928_906.jpg" />
+         <p class="image-description"> লকডাউন সময়ে স্কুলে</p>
+      </div>
+
+    </div>
+</body>
+</html>
+
